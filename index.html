@@ -10,9 +10,9 @@
 </head>
 <body>
 
-    <div class="container">
-        <nav class="navbar navbar-expand-lg navbar-light bg-light">
-        <a class="navbar-brand" href="#">Mario Zetter</a>
+    <div class="container-fluid">
+        <nav class="container navbar navbar-expand-lg navbar-light bg-light mx-auto" style="max-width: 960px">
+        <a class="navbar-brand" href="#" style="font-family: Georgia, 'Times New Roman', Times, serif; font-size: 32px; color: white; background-color: #4aaaa5; padding: 10px 30px; margin: 0">Mario Zetter</a>
             <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
             <span class="navbar-toggler-icon"></span>
             </button>
@@ -26,19 +26,27 @@
         </nav>
     </div>
 
-    <div class="container">
-        <div class="row">
-            <div class="card">
-                <img src="..." class="card-img-top" alt="...">
-                <div class="card-body">
-                    <h5 class="card-title">Card title</h5>
+    <div class="container-fluid" style="display: contents">
+        <div class="row-bg">
+            <div class="card col container-fluid mx-auto" style="display: block; max-width: 960px">
+                    <div><h5 class="card-title text-center" style="font-family:Georgia, 'Times New Roman', Times, serif; font-size: 24px">About Me</h5>
+                    <hr>
+                <img src="./images/selfie.jpg" class="card-img-top" style="max-height: 20rem; max-width: 20rem; float:left; padding: 25px 10px 0px 10px" alt="photo-self">
+                <div class="card-body text-justify flex-row">
                     <p class="card-text">Hi there internet, my name's Mario, and I'm a student studying web development through the University of California, Davis. I have just begun my web development journey and this page will be updated throughout my program and on.</p>
-                    <p class="card-text">I currently hold a full-time job with the State of California. While the benefits are nice, I am looking to start some web development projects on the side in anticipation for a future career change.</p>
+                    <p class="card-text">I currently hold a full-time job with the State of California. While the benefits are nice, I am looking to start some web development projects on the side in anticipation for a future career change. This will be a challenge I'm sure, but I am looking forward to it!</p>
                     <p class="card-text">In my free time, I enjoy watching films. Some of my favorites are Lost in Translation, Drive, and the Lord of the Rings trilogy (sorry, Hobbit....you kinda sucked). I also have a BA in film through Sacramento State University. I also love listening to music and playing videogames (PS4!). Mass Effect is my favorite game series. I like to always try new foods, as well as seeing as many new places as I can. The last place I visited was Washington, DC. I love history and it was awesome to see all the museums and monuments there! Currently deciding where to go next...any ideas?</p>
-                    <a href="#" class="btn btn-primary">Go somewhere</a>
                 </div>
             </div>
         </div>
+    </div>
+
+    <div class="footer">
+    <footer class="py-4 bg-dark text-white-50" style="width: 100%; padding: 0;">
+        <div class="text-center">
+            <small>Copyright &copy;</small>
+        </div>
+    </footer>
     </div>
 
 <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
